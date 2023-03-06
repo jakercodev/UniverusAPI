@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Univerus.Console.Application\Univerus.Console.Application.csproj" />
+    <ProjectReference Include="..\Univerus.Console.Domain\Univerus.Console.Domain.csproj" />
+    <ProjectReference Include="..\Univerus.Console.Shared\Univerus.Console.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

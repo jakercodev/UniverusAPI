@@ -3,3 +3,11 @@
 ################################################################################
 
 /Univerus.Console.Application/obj
+/Univerus.Console.Application/bin/Debug/net5.0
+/Univerus.Console.Domain/bin/Debug/net5.0
+/Univerus.Console.Domain/obj
+/Univerus.Console.Infrastructure/bin/Debug/net5.0
+/Univerus.Console.Infrastructure/obj
+/Univerus.Console.Shared/bin/Debug/net5.0
+/Univerus.Console.Shared/obj/Debug/net5.0
+/Univerus.Console.Shared/obj
